@@ -18,13 +18,6 @@ A responsive browser-based Memory Game built with **HTML**, **CSS**, and **JavaS
 - `styles.css` – responsive styling and card flip visuals
 - `script.js` – game state, shuffle, flip, match, and restart logic
 
-## Setup
-
-1. Download or clone this project.
-2. Open the project folder.
-3. Run the game by opening `index.html` in any modern browser.
-
-No build tools or dependencies are required.
 
 ## How to Play
 
