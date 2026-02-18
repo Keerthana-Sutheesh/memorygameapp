@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="game-container">
+    <header class="game-header">
+      <h1>Memory Game</h1>
+      <p>Flip cards and find all matching pairs.</p>
+      <button id="restartBtn" class="restart-btn" type="button">Restart</button>
+    </header>
+
+    <section class="stats" aria-label="Game stats">
+      <div class="stat-item">
+        <span class="label">Moves</span>
+        <span id="moveCount" class="value">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="label">Time</span>
+        <span id="timer" class="value">00:00</span>
+      </div>
+    </section>
+
+    <section
+      id="gameBoard"
+      class="game-board"
+      aria-label="Memory cards"
+      aria-live="polite"
+    ></section>
+
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
